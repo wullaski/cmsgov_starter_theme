@@ -1,0 +1,26 @@
+name: cms_starterkit_theme
+type: theme
+'base theme': false
+version: 1.0.0
+libraries:
+  - cms_starterkit_theme/base
+  - cms_starterkit_theme/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - cms_starterkit_theme/user
+  core/drupal.dropbutton:
+    - cms_starterkit_theme/dropbutton
+  core/drupal.dialog:
+    - cms_starterkit_theme/dialog
+  file/drupal.file:
+    - cms_starterkit_theme/file
+  core/drupal.item-list:
+    - cms_starterkit_theme/item-list
+  core/drupal.progress:
+    - cms_starterkit_theme/progress
+  core/drupal.tablesort:
+    - cms_starterkit_theme/drupal.tablesort
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.4.4'
