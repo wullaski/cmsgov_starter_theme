@@ -1,3 +1,21 @@
+cmsgovds:
+  version: 18.1.0
+  css:
+    base:
+      assets/cmsgovds/css/index.css: {}
+      assets/cmsgovds/css/cmsgov-theme.css: {}
+  js:
+    assets/cmsgovds/js/all.js: { attributes: { defer: true } }
+
+cmsds:
+  version: 18.1.0
+  css:
+    base:
+      assets/cmsds/css/index.css: {}
+      assets/cmsds/css/core-theme.css: {}
+  js:
+    assets/cmsds/js/all.js: { attributes: { defer: true } }
+
 base:
   version: VERSION
   css:

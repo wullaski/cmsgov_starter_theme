@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@cmsgov/design-system@^18.1.0":
+"@cmsgov/design-system@18.1.0", "@cmsgov/design-system@^18.1.0":
   version "18.1.0"
   resolved "https://registry.yarnpkg.com/@cmsgov/design-system/-/design-system-18.1.0.tgz#119d68d29e8ff2d83b6e5535a56967f3847a8ab8"
   integrity sha512-1Ts8UsF3wPHUCWZm87W0GZ+ex+x2axHmCNFOlLBBtvZP5iWAx8v1QlEY33tz9sKTqW6xfl/n8LyXnFGQ56b2HA==
@@ -26,6 +26,15 @@
     react-day-picker "8.10.1"
     react-stately "^3.37.0"
     yargs "^17.7.2"
+
+"@cmsgov/ds-cms-gov@^18.1.0":
+  version "18.1.0"
+  resolved "https://registry.yarnpkg.com/@cmsgov/ds-cms-gov/-/ds-cms-gov-18.1.0.tgz#367f2b3c2646f73902e9161f054bcaf7d234a9db"
+  integrity sha512-QxzLFAI1PRmO2YTSxcFXEYVNsyzSiuAahdnE0RSl//r9IcwQGkr8rQ0Jdwafl/70mt+DYIjulN+0VaFw3KKVgw==
+  dependencies:
+    "@cmsgov/design-system" "18.1.0"
+    "@types/react" "^19.1.8"
+    "@types/react-dom" "^19.1.9"
 
 "@floating-ui/core@^1.8.0":
   version "1.8.0"

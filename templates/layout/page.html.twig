@@ -42,7 +42,7 @@
  * @see html.html.twig
  */
 #}
-<div class="layout-container">
+<div class="ds-l-container ds-u-padding-y--3">
 
   <header>
     {{ page.header }}
@@ -60,6 +60,15 @@
   <main>
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
+    <div class="ds-l-container ds-u-padding-y--3">
+      
+      <h2 class="ds-text-heading--2x ds-u-margin-top--2">CMSDS smoke test</h2>
+      <ds-alert heading="Design system is loaded" variation="success">
+        It's working! 
+      </ds-alert>
+      
+    </div>
+    
     <div class="layout-content">
       {{ page.content }}
     </div>{# /.layout-content #}

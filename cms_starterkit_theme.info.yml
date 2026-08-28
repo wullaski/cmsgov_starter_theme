@@ -5,6 +5,8 @@ version: 1.0.0
 libraries:
   - cms_starterkit_theme/base
   - cms_starterkit_theme/messages
+  - cms_starterkit_theme/cmsds
+  - cms_starterkit_theme/cmsgovds
   - core/normalize
 libraries-extend:
   user/drupal.user:

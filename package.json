@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "@cmsgov/design-system": "^18.1.0"
+    "@cmsgov/design-system": "^18.1.0",
+    "@cmsgov/ds-cms-gov": "^18.1.0"
+  },
+  "scripts": {
+    "vendor:cmsds": "mkdir -p assets/cmsds/css assets/cmsds/js assets/cmsds/fonts && cp node_modules/@cmsgov/design-system/dist/css/index.css assets/cmsds/css/ && cp node_modules/@cmsgov/design-system/dist/css/core-theme.css assets/cmsds/css/ && cp -R node_modules/@cmsgov/design-system/dist/fonts/. assets/cmsds/fonts/ && cp node_modules/@cmsgov/design-system/dist/web-components/bundle/all.js assets/cmsds/js/",
+    "vendor:cmsgovds": "mkdir -p assets/cmsgovds/css assets/cmsgovds/js assets/cmsgovds/fonts && cp node_modules/@cmsgov/ds-cms-gov/dist/css/index.css assets/cmsgovds/css/ && cp node_modules/@cmsgov/ds-cms-gov/dist/css/cmsgov-theme.css assets/cmsgovds/css/ && cp -R node_modules/@cmsgov/ds-cms-gov/dist/fonts/. assets/cmsgovds/fonts/ && cp node_modules/@cmsgov/ds-cms-gov/dist/web-components/bundle/all.js assets/cmsgovds/js/"
   }
 }
