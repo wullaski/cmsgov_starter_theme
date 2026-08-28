@@ -1,0 +1,11 @@
+{#
+/**
+ * @file
+ * Renders a list of steps using the CMS Design System <ds-step-list> web component.
+ *
+ * Available variables:
+ * - steps: An array of step objects (id, heading, completed, href). It is
+ *   JSON-encoded and passed to the web component's `steps` attribute.
+ */
+#}
+<ds-step-list steps='{{ steps|json_encode }}'></ds-step-list>

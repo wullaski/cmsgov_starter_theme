@@ -1,0 +1,44 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+
+name: Steps to Profit
+description: Renders a list of steps inside the CMS Design System <ds-step-list> web component.
+status: experimental
+group: Documentation
+
+props:
+  type: object
+  required:
+    - steps
+  properties:
+    steps:
+      title: Steps
+      description: A list of step objects passed to <ds-step-list> as a JSON string.
+      type: array
+      items:
+        type: object
+        required:
+          - id
+          - heading
+        properties:
+          id:
+            title: ID
+            type: string
+          heading:
+            title: Heading
+            type: string
+          completed:
+            title: Completed
+            type: boolean
+          started:
+            title: Started
+            type: boolean
+          description:
+            title: Description
+            type: string
+          href:
+            title: Href
+            type: string
+
+libraryOverrides:
+  dependencies:
+    - cms_starterkit_theme/cmsds
