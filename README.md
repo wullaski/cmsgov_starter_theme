@@ -21,3 +21,7 @@ Run `yarn vendor:cmsds` in these situations:
 - **In CI/CD** — as a build step after `yarn install`, before deploying the theme.
 
 There is intentionally no `postinstall` hook (auto-run install scripts can be flagged by security scanners), so the command must be run manually.
+
+### Child design system
+
+Run `yarn vendor:cmsgovds` to apply the CMS.gov child design system
